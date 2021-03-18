@@ -3,8 +3,18 @@ package auto_radnja;
 import java.util.LinkedList;
 import auto_radnja.gume.AutoGuma;
 
+/**
+ * Klasa koja predstavlja vulkanizersku radnju.
+ * 
+ * Klasa implementira interfejs Radnja.
+ * @author Lenovo Yoga
+ * @version 0.2
+ */
 public class VulkanizerskaRadnja implements Radnja {
 	
+	/**
+	 * Lista koja sadrzi auto gume koje se nalaze u vulkanizerskoj radnji.
+	 */
 	private LinkedList<AutoGuma> gume = new LinkedList<AutoGuma>();
 
 	@Override
