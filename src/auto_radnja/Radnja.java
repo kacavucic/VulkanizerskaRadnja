@@ -29,11 +29,17 @@ public interface Radnja {
 	 * 
 	 * @param markaModel Marka i model auto gume koja se pretrazuje
 	 * <ul>
-	 * 		<li>@return Lista auto guma koje zadovoljavaju kriterijum pretrage</li>
-	 * 		<li>@return Null ako je uneta marka i model null</li>
+	 * @return
+	 * 		<li> Lista auto guma koje zadovoljavaju kriterijum pretrage</li>
+	 * 		<li> Null ako je uneta marka i model null</li>
 	 * </ul>
 	 */
 	LinkedList<AutoGuma> pronadjiGumu(String markaModel);
 
+	/**
+	 * Vraca sve auto gume koje se nalaze u radnji.
+	 * 
+	 * @return Lista svih auto guma koje se nalaze u radnji
+	 */
 	LinkedList<AutoGuma> getGume();
 }
