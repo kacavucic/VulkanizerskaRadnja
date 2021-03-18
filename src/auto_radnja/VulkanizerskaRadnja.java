@@ -36,4 +36,9 @@ public class VulkanizerskaRadnja implements Radnja {
 				novaLista.add(gume.get(i));
 		return novaLista;
 	}
+	
+	@Override
+	public LinkedList<AutoGuma> getGume() {
+		return gume;
+	}
 }
